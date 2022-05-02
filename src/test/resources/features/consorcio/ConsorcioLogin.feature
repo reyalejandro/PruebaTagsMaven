@@ -14,9 +14,3 @@ Feature: Ingresar a login consorcio, Se espera ingresar al login de consorcio pa
 				Examples:
 				|rut |clave|
 				|rut |clave|
-
-	 @TEST_LB-542 @regression 
-	 Scenario: Ingresar portabibilidad fianciera
-		When ingreso a portate o hazte cliente  
-		And  se selecciona portabilidad financiera
-	  Then se visualiza el home de portabilidad financiera
