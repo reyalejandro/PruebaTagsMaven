@@ -34,13 +34,13 @@ private String extensionDriver = "";
     	        System.out.println("Se selecciona Chrome");
     	        WebDriverManager.chromedriver().setup();
     	        ChromeOptions chromeOptions = new ChromeOptions();
-    	        /* Activar si es necesario
+    	        /* Activar si es necesario*/
     			chromeOptions.addArguments("--ignore-certificate-errors"); 
     			chromeOptions.addArguments("--disable-extensions");
     			chromeOptions.addArguments("--disable-dev-shm-usage");
     			chromeOptions.addArguments("--disable-gpu");
     			chromeOptions.addArguments("--no-sandbox");
-    			*/
+    			
     			if (os.contains("linux")) {
     			  chromeOptions.addArguments("--headless");
     			}  
