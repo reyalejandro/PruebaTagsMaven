@@ -1,0 +1,16 @@
+{
+     "fields": {
+        "project": {
+            "id": "10106",
+            "key": "LB"
+        },
+        "summary": "Pruebaderegresion",
+        "issuetype": {
+            "name": "Test Execution"
+        }
+    },
+
+    "xrayFields": {
+        "testPlanKey": "LB-543"
+    }
+}
